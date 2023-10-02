@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.navbar-title{
+    color: #4682A9;
+    font-family: 'Archivo Black', sans-serif;
+    margin-left: 20px;
+    font-weight: 900;
+}
+.navbar-title span{
+    color: black;
+    text-shadow: 2px solid red;
+}
+.nav-first-group{
+    display: flex;
+}
+.navbar-para{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: 700;
+    font-family: 'Architects Daughter', cursive;
+}
+.nav-ele{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #F6F4EB;
+    border: 1px solid #4682A9;
+    margin-left: 10px;
+    transition: background-color ease-in-out 3ms;
+    cursor: pointer;
+}
+.nav-ele a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 8px;
+    transition: color ease-in-out;
+}
+
+.nav-ele-group{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.nav-ele:hover{
+    background-color: #4682A9;
+}
+.nav-ele:hover .linkin{
+    color: white;
+}
+.response{
+    width: 25px;
+    display: none;
+}
+@media (max-width: 600px){
+    .nav-ele-group{
+        position: relative;
+       padding-top: 150px;
+       left: 240px;
+    }
+    #alive{
+        width: 100%;
+        height: 300vh;
+        display: block;
+        position:absolute;
+        background-color: rgba(70, 130, 169, 0.9);
+        top: -50px;
+        left: -250px;
+        z-index: 0;
+        justify-content: center;
+        overflow: hidden;
+        
+    }
+    #dead{
+        display: none;
+    }
+    .response{
+        width: 25px;
+        display: block;
+        position: relative;
+        left: 40px;
+        top: 30px;
+        z-index: 1;
+    }
+    .nav-ele{
+        width: 100px;
+        height: 40px;
+        border-radius: 25px;
+        background-color: #F6F4EB;
+        border: 1px solid #4682A9;
+        margin-top: 10px;
+        transition: background-color ease-in-out 3ms;
+        cursor: pointer;
+        margin-left: 40%;
+    }
+}
+  

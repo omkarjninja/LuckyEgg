@@ -1,0 +1,112 @@
+.joinus-main-body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.joinus-body{
+    width: 80%;
+    height: 25rem;
+    background-color: #4682A9;
+    border-radius: 100px;
+}
+.joinus-content{
+    float: left;
+    width: 50%;
+    text-align: left;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.joinus-head{
+    font-size: 4rem;;
+    font-family: 'Bagel Fat One', cursive;
+    color: white;
+}
+.joinus-para{
+    width: 350px;
+    position: relative;
+    top: -20px;
+}
+.joinus-link-grp{
+    width: 125px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-top: -20px;
+    transition: all ease-in-out;
+    cursor: pointer;
+}
+.joinus-link-grp a{
+    text-decoration: none;
+    color: #4682A9;
+    position: relative;
+    top: 12px;
+    left: 30px;
+    transition: all ease-in-out;
+}
+/* .joinus-image-grp{
+    position: relative;
+    top: 30px;
+} */
+.joinus-img{
+    position: relative;
+    top: 30px;
+    width: 250px;
+}
+.joinus-link-grp:hover{
+    background-color: black;
+}
+.joinus-link-grp:hover .joinus-btn{
+    color: white;
+}
+@media (max-width: 600px){
+    .joinus-body{
+        width: 100%;
+        height: 30rem;
+        background-color: #4682A9;
+        border-radius: 75px;
+    }
+    .joinus-content{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        left: 0px;
+        top: 50px;
+    }
+    .joinus-head{
+        font-size: 2rem;;
+        font-family: 'Bagel Fat One', cursive;
+        color: white;
+    }
+    .joinus-para{
+        width: 70%;
+        text-align: center;
+        margin-left: 12%;
+    }
+    .joinus-link-grp{
+        width: 125px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: white;
+        border: 1px solid white;
+        margin-left: 35%;
+        margin-top: -20px;
+        transition: all ease-in-out;
+    }
+    .joinus-link-grp a{
+        text-decoration: none;
+        color: #4682A9;
+        position: relative;
+        top: 12px;
+        left: 0px;
+        transition: all ease-in-out;
+    }
+    .joinus-img{
+        position: relative;
+        top: 50px;
+        width: 150px;
+        left: -20px;
+    }
+}

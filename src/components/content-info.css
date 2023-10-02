@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
+.info-body{
+    width: 100%;
+    height: 80vh;
+}
+.info-container{
+    margin-top: 50px;
+    width: 50%;
+    height: 100%;
+}
+.info-text{
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 4rem;
+    line-height: 70px;
+    color: #4682A9;
+    font-style: normal;
+    font-weight: lighter;
+}
+.tik-tok{
+    width: 300px;
+    position: relative;
+    left: 30%;
+    top: -630px;
+}
+.aws{
+    width: 400px;
+    position: relative;
+    left: 15%;
+    top: -730px;
+}
+.info-small-text{
+    width: 200px;
+    position: relative;
+    left: 150px;
+    top: -100px;
+}
+@media (max-width: 600px){
+    .info-body{
+        width: 100%;
+        height: 70vh;
+    }
+    .info-text{
+        font-family: 'Bagel Fat One', cursive;
+    font-size: 2rem;
+    line-height: 40px;
+    color: #4682A9;
+    font-style: normal;
+    font-weight: lighter;
+    }
+    .info-container{
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+    .tik-tok{
+        width: 200px;
+        position: relative;
+        left: 10%;
+        top: -350px;
+    }
+    .aws{
+        width: 250px;
+        position: relative;
+        left: 10%;
+        top: -420px;
+    }
+    .info-small-text{
+        width: 400px;
+        position: relative;
+        left: 50px;
+        top: 40px;
+    }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
+.main-body{
+    background-color:#4682A9;
+    width: 100%;
+    height: 100vh;
+}
+.content-body-text{
+    font-size: 6.8rem;
+    font-family: 'Bagel Fat One', cursive;
+    font-weight: 100;
+    line-height: 150px;
+    margin-top: 80px;
+    text-transform: capitalize;
+    color: white;
+}
+.content-body-link{
+    width: 125px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-top: -20px;
+    transition: color ease-in-out;
+    cursor: pointer;
+}
+.content-body-link a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 12px;
+    transition: color ease-in-out;
+}
+.content-body-link:hover{
+    background-color: white;
+}
+.content-body-link:hover a{
+    color: #4682A9;
+}
+.lmao:hover{
+    background-color: white;
+    color: #4682A9;
+}
+@media (max-width: 600px){
+    .main-body{
+        height: 60vh;
+    }
+    .content-body-text{
+        font-size: 3.2rem;
+        font-family: 'Bagel Fat One', cursive;
+        font-weight: 100;
+        line-height: 50px;
+        margin-top: 30px;
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+    .content-body{
+        margin-top: 50px;
+    }
+    .content-body-link{
+        width: 125px;
+        height: 50px;
+    }
+}
