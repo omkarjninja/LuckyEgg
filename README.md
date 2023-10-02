@@ -44,7 +44,7 @@ This repository contains the source code and assets for the LuckyEgg Company Pag
    npm start
    ```
 
-   The webpage will be available at [http://localhost:3000](http://localhost:3000) in your web browser.
+   The webpage will be available at https://cheery-dusk-f66bd4.netlify.app/ in your web browser.
 
 ## Usage
 
